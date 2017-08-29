@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SeraphicCraft Map</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.2/dist/leaflet.css" />
+  <link rel="stylesheet" href="app.css" />
+  <link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet">
+  <link rel="icon" type="image/icon" href="favicon.ico">
+</head>
+
+<body>
+  <div id="js-map" class="map-container"></div>
+
+  <div class="coordinates js-coordinates"></div>
+
+  <div class="legend">
+    <img src="legend.png" alt="Legend" class="legend__image js-legend hidden" />
+    <button class="js-toggle-legend legend__button">Toggle Legend</button>
+  </div>
+
+  <script src="https://unpkg.com/leaflet@1.0.2/dist/leaflet.js"></script>
+  <script
+    src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous">    
+  </script>
+  <script src="app.js"></script>
+  <script src="https://spreadsheets.google.com/feeds/cells/1O_s6NmpZxxf6hwpekPXOrRFZsUhjtLDtaATq5FaMddY/1/public/values?alt=json-in-script&callback=parseData"></script>
+</body>
+</html>
