@@ -6,3 +6,5 @@ The spreadsheet follows this format:
 ```x, z, Map Label, IGN, URL (Optional)```
 
 The map's image is made by stitching together screenshots taken from [Amidst](https://github.com/toolbox4minecraft/amidst).
+
+See the map in action at [http://seraphiccraft.surge.sh/](http://seraphiccraft.surge.sh/)
