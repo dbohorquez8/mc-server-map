@@ -31,8 +31,10 @@ html, body {
   margin: -18px 0 0 -28px !important;
 }
 
-.marker__link {
-  display: block;
+.marker__container {
+  cursor: -webkit-grab;
+  cursor: -moz-grab;
+  cursor: grab;
 }
 
 .marker__icon {
