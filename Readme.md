@@ -25,5 +25,7 @@ const options = {
 ```
 
 `mapUrl`: the URL of the map image. This can either be a relative path or a URL.
+
 `mapBounds`: the coordinates of the top left corner and the bottom right of the area displayed on your map image: `[[x1, z1],[x2, z2]]`.
+
 `spreadsheetKey`: the key of the Google Spreadsheet: `https://docs.google.com/spreadsheets/d/YOUR_SPREADSHEET_KEY/edit?ts=59e2ad25#gid=0`
