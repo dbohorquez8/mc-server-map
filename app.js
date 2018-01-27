@@ -11,7 +11,7 @@ const options = {
     [-12288, -12288],
     [12288, 12288]
   ],
-  spreadsheetKey: '12P_e4n4a9JaWaXd15-f6aan6WMqYPcbNEBnfI7qz_Ss'
+  spreadsheetKey: 'YOUR_SPREADSHEET_KEY'
 }
 
 // Initialize Leaflet map
